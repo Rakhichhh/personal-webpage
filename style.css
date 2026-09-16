@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f1f2f3;
+    color: #222222;
+}
+
+header {
+    background-color: #20252b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 4px solid #4f5b66;
+}
+
+header h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+header h3 {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.welcome-text {
+    color: #d9dde1;
+}
+
+.site-nav {
+    margin-top: 25px;
+}
+
+.site-nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 4px;
+    border: 1px solid #8a949d;
+}
+
+.site-nav a:hover {
+    background-color: white;
+    color: #20252b;
+}
+
+.site-nav a:focus {
+    outline: 3px solid #b9c0c6;
+}
+
+main {
+    width: 80%;
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+section h2 {
+    color: #20252b;
+    font-size: 25px;
+    margin-top: 0;
+    border-left: 4px solid #4f5b66;
+    padding-left: 10px;
+}
+
+#about {
+    background-color: #f6f7f8;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #20252b;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px #999999;
+}
+
+p {
+    font-size: 16px;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+.website-list a {
+    color: #35495e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.website-list a:hover {
+    text-decoration: underline;
+}
+
+.main-button {
+    background-color: #20252b;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #20252b;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: white;
+    color: #20252b;
+}
+
+.main-button:focus {
+    outline: 3px solid #999999;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #20252b;
+    color: white;
+}
+
+#mood {
+    background-color: #f6f7f8;
+}
+
+.mood-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 450px;
+    padding: 20px;
+    background-color: #f6f7f8;
+    border: 1px solid #cccccc;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 9px;
+    font-size: 15px;
+    border: 1px solid #999999;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: 2px solid #555555;
+}
+
+input[type="color"] {
+    display: block;
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    background-color: #20252b;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #20252b;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: #20252b;
+}
+
+.submit-button:focus {
+    outline: 3px solid #999999;
+}
+
+footer {
+    background-color: #20252b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #cccccc;
+}

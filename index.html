@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="home">
+
+    <h1>Welcome to My Assignment #1</h1>
+    <h2>Myrzabekov Rakhat</h2>
+    <h3>HTML & CSS Basics | Software Engineering | SE2518</h3>
+
+    <p class="welcome-text">
+        Welcome to my personal webpage created for HTML & CSS Basics.
+    </p>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#websites">Websites</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#mood">Mood</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <img
+            class="profile-image"
+            src="images/Rakhat.jpg"
+            alt="Photo of Myrzabekov Rakhat">
+
+        <p>
+            Hello! I'm Rakhat Myrzabekov, a second-year Software Engineering student at AITU.
+            I enjoy Java programming and playing Dota 2.
+        </p>
+
+        <button class="main-button" type="button">
+            Click Me
+        </button>
+
+    </section>
+
+    <section id="hobbies">
+
+        <h2>My Hobbies</h2>
+
+        <ol>
+            <li>Programming</li>
+            <li>Playing computer games</li>
+            <li>Walking outdoors</li>
+        </ol>
+
+    </section>
+
+    <section id="websites">
+
+        <h2>My Favourite Websites</h2>
+
+        <ul class="website-list">
+            <li>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">
+                    Stack Overflow
+                </a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="schedule">
+
+        <h2>My Class Schedule</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Monday</td>
+                    <td>14:00</td>
+                </tr>
+
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Wednesday</td>
+                    <td>15:00</td>
+                </tr>
+
+                <tr>
+                    <td>Software Design Patterns</td>
+                    <td>Wednesday</td>
+                    <td>17:00</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section id="mood">
+
+        <h2>My Mood</h2>
+
+        <p class="mood-text">
+            Today I feel focused 💻, happy 😊 and ready to code 🚀.
+        </p>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name">
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email">
+
+            <label for="color">Favorite Color:</label>
+            <input
+                type="color"
+                id="color"
+                name="color">
+
+            <input
+                class="submit-button"
+                type="submit"
+                value="Submit">
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        &copy; 2026 Myrzabekov Rakhat | SE2518
+    </p>
+
+    <a href="#home">Back to top</a>
+
+</footer>
+
+</body>
+
+</html>
